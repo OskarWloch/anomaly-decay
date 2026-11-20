@@ -1,0 +1,15 @@
+# Licensed WRDS data (CRSP, Compustat, I/B/E/S) - never commit
+data/
+*.sqlite
+*.rds
+*.RData
+*.csv
+
+# Generated tables
+output/tables/
+
+# Credentials and local R files
+.Renviron
+.Rhistory
+.Rproj.user/
+.DS_Store
